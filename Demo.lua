@@ -12,7 +12,7 @@
 -- To pin the library to one exact version (so a later push to the repo can never change what runs), replace "main" with a
 -- commit id from GitHub (the long code next to a commit), e.g. REF = "3f2a9c1d...". "main" always loads the newest file.
 local REF = "main"
-local URL = "https://raw.githubusercontent.com/RebelUI/Library/" .. REF .. "/source.lua"
+local URL = "https://raw.githubusercontent.com/RebelUI/Test/" .. REF .. "/source.lua"
 
 -- shows a message on screen (phones can't see the console) and in the console
 local function problem(msg)
