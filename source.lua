@@ -4,7 +4,7 @@
     Same look as the Rebelwar Hub: spinning ring, embers, glowing tabs, shiny buttons,
     pill toggles, a top bar you can fill with FPS / Timer / Logo and more, and a loading screen.
 
-    local UI  = loadstring(game:HttpGet("https://raw.githubusercontent.com/RebelUI/Library/main/source.lua"))()
+    local UI  = loadstring(game:HttpGet("https://raw.githubusercontent.com/RebelUI/Test/main/source.lua"))()
 
     local Load = UI:Loading({ Title = "Rebelwar", Logo = 114659273298746 })   -- optional loading screen
     Load:Status("Starting..."); Load:Progress(0.6)
